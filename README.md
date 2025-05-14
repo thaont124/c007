@@ -2,7 +2,7 @@
 
 1. update CFSOrderItem (state = inProgress)
 2. validate tất cả các trường của service order
-	+ Date.now() >= orderDate >= requestedStartDate >= completionDate >= cancellationDate
+	+ Date.now() <= orderDate <= requestedStartDate <= completionDate <= cancellationDate
 3. POST /checkServiceQualification (tmf645)
 	+ Duyệt qua toàn bộ serviceOrderItem
 	+ tổng hợp toàn bộ serviceOrderItem.service  thành 1 list A
