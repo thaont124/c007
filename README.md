@@ -13,7 +13,7 @@
 		relatedParty			relatedParty
 	+ POST /checkServiceQualification
 <i><sub>   
-599 - Service Order Tracking ??????? có cần check qua sau khi checkServiceQualification ????
+599 - Service Order Tracking ??????? có cần check qua sau khi POST checkServiceQualification ???? 
 	+ trackServiceOrder nhận kết quả từ POST /checkServiceQualification.
 	+ generateEventId tạo ID cho sự kiện.
 	+ updateServiceOrderLifecycle cập nhật trạng thái Service Order:
@@ -27,10 +27,21 @@
 		TH2: Thông báo đề xuất thay thế qua EventPublisher.
 </i></sub>
 
-
 4. Allocate Specific Service (chưa làm)
 	4.1. POST /service
-		
+	4.2. TMF633 - GET /serviceSpecification
+	Lấy thông tin CFS bao gồm RFS
+	Sau đó tiếp tục lấy thông tin RFS bao gồm RS
+
+	4.3. Lấy thông tin RS
+	TMF638 - POST /service
+	Gửi thông tin RFS
+
+	592 - Service Parameter Reservation
+	Cập nhật trạng thái (state)
+
+	591 - Service Parameter Allocation
+	Cập nhật trạng thái (state)	
 
 7. 596 - Service Order Transfer Supervision
 	
