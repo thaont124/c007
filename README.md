@@ -12,15 +12,14 @@
 		externalId			extenalId
 		relatedParty			relatedParty
 	+ POST /checkServiceQualification 
-
 4. Allocate Specific Service (chưa làm)
 
 5. 599 - Service Order Tracking
 	+ 
 6. 596 - Service Order Transfer Supervision
-
+	
 7. Implement, Configure & Activate Service (chưa làm)
-
+	
 5. 599 - Service Order Tracking
 	+ 
 6. 596 - Service Order Transfer Supervision
@@ -29,7 +28,7 @@
 
 8. 733 Service Order Decomposition
 
-9. POST /resourceOrder
+9. POST /resourceOrder (tmf652)
 
 
 
