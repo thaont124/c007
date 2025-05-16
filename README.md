@@ -40,10 +40,11 @@
 	592 - Service Parameter Reservation
 	Cập nhật trạng thái (state)
 
-	591 - Service Parameter Allocation
+	591 - Service Parameter Allocastion
 	Cập nhật trạng thái (state)	
 
-7. 596 - Service Order Transfer Supervision
+599 - Service Order Tracking
+596 - Service Order Transfer Supervision
 	
 8. Implement, Configure & Activate Service (chưa làm)
 	
